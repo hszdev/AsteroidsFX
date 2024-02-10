@@ -23,6 +23,7 @@ public class GameKeys {
     }
 
     public void setKey(int k, boolean b) {
+        System.out.println("Set key: " + k);
         keys[k] = b;
     }
 
